@@ -1,0 +1,2315 @@
+{
+  "title": "Maze Garden",
+  "mode": "TopDown",
+  "lives": 3,
+  "speed": 5.5,
+  "jump_height": 3.2,
+  "stomp": true,
+  "win_message": "You found your way out of the maze!",
+  "rules": [
+    {
+      "touches": "Coin",
+      "actions": [
+        {
+          "AddScore": 10
+        },
+        "Disappear"
+      ]
+    },
+    {
+      "touches": "Enemy",
+      "actions": [
+        "LoseLife"
+      ]
+    },
+    {
+      "touches": "Spikes",
+      "actions": [
+        "LoseLife"
+      ]
+    },
+    {
+      "touches": "Goal",
+      "actions": [
+        "FinishLevel"
+      ]
+    },
+    {
+      "touches": "Spring",
+      "actions": [
+        "Launch"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "name": "The maze",
+      "width": 23,
+      "height": 13,
+      "sky": [
+        196,
+        232,
+        170
+      ],
+      "things": [
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 1,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 3,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 5,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 7,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 9,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 11,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 13,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 15,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 17,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 19,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 21,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 0,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 1,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Player",
+          "x": 1,
+          "y": 1,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 1,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 1,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Enemy",
+          "x": 13,
+          "y": 1,
+          "color": null,
+          "motion": "Follow",
+          "speed": 1.6,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 1,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 1,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 3,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 5,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 17,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 19,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 2,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 3,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 3,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 3,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 3,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Enemy",
+          "x": 16,
+          "y": 3,
+          "color": null,
+          "motion": "LeftRight",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 3,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 3,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 3,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 5,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 7,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 13,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 15,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 21,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 4,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 5,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 5,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Coin",
+          "x": 3,
+          "y": 5,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 5,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 5,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 5,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 5,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 5,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 3,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 11,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 17,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 19,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 6,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 7,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 7,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Coin",
+          "x": 11,
+          "y": 7,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 7,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 7,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Coin",
+          "x": 19,
+          "y": 7,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 7,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 7,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 1,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 3,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 5,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 7,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 9,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 13,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 15,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 19,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 8,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 9,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Coin",
+          "x": 1,
+          "y": 9,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 9,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 9,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Enemy",
+          "x": 8,
+          "y": 9,
+          "color": null,
+          "motion": "LeftRight",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Coin",
+          "x": 15,
+          "y": 9,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 9,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 9,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 9,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 13,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 15,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 19,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 21,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 10,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 11,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 11,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Coin",
+          "x": 9,
+          "y": 11,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 11,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Goal",
+          "x": 21,
+          "y": 11,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 11,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 1,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 3,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 5,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 7,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 9,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 11,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 13,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 15,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 17,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 19,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 21,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 12,
+          "color": [
+            70,
+            130,
+            80
+          ],
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "title": "My Game",
+  "mode": "Platformer",
+  "lives": 3,
+  "speed": 6.0,
+  "jump_height": 3.2,
+  "stomp": true,
+  "win_message": "You won! Great job!",
+  "rules": [
+    {
+      "touches": "Coin",
+      "actions": [
+        {
+          "AddScore": 10
+        },
+        "Disappear"
+      ]
+    },
+    {
+      "touches": "Enemy",
+      "actions": [
+        "LoseLife"
+      ]
+    },
+    {
+      "touches": "Spikes",
+      "actions": [
+        "LoseLife"
+      ]
+    },
+    {
+      "touches": "Goal",
+      "actions": [
+        "FinishLevel"
+      ]
+    },
+    {
+      "touches": "Spring",
+      "actions": [
+        "Launch"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "name": "Level 1",
+      "width": 26,
+      "height": 15,
+      "sky": [
+        150,
+        210,
+        255
+      ],
+      "things": [
+        {
+          "kind": "Wall",
+          "x": 0,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 1,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 2,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 3,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 4,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 5,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 6,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 7,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 8,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 9,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 10,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 11,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 12,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 13,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 14,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 15,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 16,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 17,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 18,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 19,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 20,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 21,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 22,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 23,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 24,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Wall",
+          "x": 25,
+          "y": 14,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Player",
+          "x": 2,
+          "y": 13,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        },
+        {
+          "kind": "Goal",
+          "x": 23,
+          "y": 13,
+          "color": null,
+          "motion": "Still",
+          "speed": 2.0,
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

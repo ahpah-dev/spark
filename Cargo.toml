@@ -1,0 +1,30 @@
+[package]
+name = "spark"
+version = "0.1.0"
+edition = "2024"
+description = "Spark: a super easy game maker for young creators, written in pure Rust."
+
+[dependencies]
+# eframe gives us the window, the drawing and the buttons. It is pure Rust.
+eframe = { version = "0.37.0", default-features = false, features = ["glow", "default_fonts"] }
+egui = { version = "0.37.0", default-features = false }
+image = { version = "0.25", default-features = false, features = ["png"] }
+rfd = "0.18"
+rodio = { version = "0.23.0", default-features = false, features = ["playback"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+
+# Make `cargo run` feel fast even without --release.
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+strip = true
+
+[build-dependencies]
+winresource = "0.1.34"
